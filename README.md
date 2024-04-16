@@ -47,17 +47,23 @@
 
 - 启动TCP连接节点：
   ```bash
-  ros2 run [package_name] tcp_connection_node
+  ros2 run turin_tcp tcp_connection_node
+  //改变ip和端口地址
+  ros2 run turin_tcp tcp_connection_node --ros-args -p server_ip:=192.168.1.5 -p server_port:=8527
+
   ```
 - 启动关节状态发布器：
   ```bash
-  ros2 run [package_name] joint_state_publisher
+  ros2 run turin_tcp joint_state_publisher
+  //改变关机角想要监听topic
+  ros2 run turin_tcp joint_state_publisher --ros-args -p joint_state_topic:= joint_state -p update_interval:= 1 //单位是秒
   ```
-- 启动数据监听器：
+- 启动图灵关节角监听器：
   ```bash
-  ros2 run [package_name] joint_state_listener
+  ros2 run turin_tcp joint_state_listener
+  //改变关节角监听和发布速度
   ```
-
+  ros2 run turin_tcp joint_state_listener --ros-args -p update_interval:=1 //单位是秒
 ### 项目结构
 
 - `/src`：包含所有源代码文件。

@@ -31,7 +31,7 @@ class TCPConnectionNode(Node):
         self.listener_thread = threading.Thread(target=self.receive_data)
         self.listener_thread.daemon = True
         self.listener_thread.start()
-
+# send an admin login command first
     def send_login_command(self):
         login_xml = '''<?xml version="Turin.Robot.V2.0" encoding="UTF-8"?>
 <Bodys>
