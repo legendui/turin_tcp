@@ -1,0 +1,32 @@
+running egg_info
+creating build/turin_tcp/turin_tcp.egg-info
+writing build/turin_tcp/turin_tcp.egg-info/PKG-INFO
+writing dependency_links to build/turin_tcp/turin_tcp.egg-info/dependency_links.txt
+writing entry points to build/turin_tcp/turin_tcp.egg-info/entry_points.txt
+writing requirements to build/turin_tcp/turin_tcp.egg-info/requires.txt
+writing top-level names to build/turin_tcp/turin_tcp.egg-info/top_level.txt
+writing manifest file 'build/turin_tcp/turin_tcp.egg-info/SOURCES.txt'
+reading manifest file 'build/turin_tcp/turin_tcp.egg-info/SOURCES.txt'
+writing manifest file 'build/turin_tcp/turin_tcp.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/build
+creating /home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/build/lib
+creating /home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/build/lib/turin_tcp
+copying turin_tcp/__init__.py -> /home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/build/lib/turin_tcp
+running install
+running install_lib
+creating /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/lib/python3.10/site-packages/turin_tcp
+copying /home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/build/lib/turin_tcp/__init__.py -> /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/lib/python3.10/site-packages/turin_tcp
+byte-compiling /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/lib/python3.10/site-packages/turin_tcp/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/share/ament_index
+creating /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/share/ament_index/resource_index
+creating /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/share/ament_index/resource_index/packages
+copying resource/turin_tcp -> /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/share/ament_index/resource_index/packages
+copying package.xml -> /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/share/turin_tcp
+running install_egg_info
+Copying build/turin_tcp/turin_tcp.egg-info to /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/lib/python3.10/site-packages/turin_tcp-0.0.0-py3.10.egg-info
+running install_scripts
+Installing tcp_client script to /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/lib/turin_tcp
+writing list of installed files to '/home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/install.log'

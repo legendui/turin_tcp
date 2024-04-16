@@ -1,0 +1,5 @@
+[console_scripts]
+joint_state_listener = turin_tcp.joint_state_listener:main
+joint_state_publisher = turin_tcp.joint_state_publisher:main
+tcp_connection_node = turin_tcp.tcp_connection_node:main
+

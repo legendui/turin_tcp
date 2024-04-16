@@ -1,0 +1,34 @@
+[0.627s] Invoking command in '/home/rui/ros2_ws/src/turin_tcp': PYTHONPATH=/home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/prefix_override:/home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/turin_tcp build --build-base /home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/build install --record /home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/install.log --single-version-externally-managed install_data
+[0.787s] running egg_info
+[0.787s] creating build/turin_tcp/turin_tcp.egg-info
+[0.787s] writing build/turin_tcp/turin_tcp.egg-info/PKG-INFO
+[0.788s] writing dependency_links to build/turin_tcp/turin_tcp.egg-info/dependency_links.txt
+[0.788s] writing entry points to build/turin_tcp/turin_tcp.egg-info/entry_points.txt
+[0.788s] writing requirements to build/turin_tcp/turin_tcp.egg-info/requires.txt
+[0.788s] writing top-level names to build/turin_tcp/turin_tcp.egg-info/top_level.txt
+[0.788s] writing manifest file 'build/turin_tcp/turin_tcp.egg-info/SOURCES.txt'
+[0.789s] reading manifest file 'build/turin_tcp/turin_tcp.egg-info/SOURCES.txt'
+[0.789s] writing manifest file 'build/turin_tcp/turin_tcp.egg-info/SOURCES.txt'
+[0.789s] running build
+[0.790s] running build_py
+[0.790s] creating /home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/build
+[0.790s] creating /home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/build/lib
+[0.790s] creating /home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/build/lib/turin_tcp
+[0.791s] copying turin_tcp/__init__.py -> /home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/build/lib/turin_tcp
+[0.791s] running install
+[0.791s] running install_lib
+[0.791s] creating /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/lib/python3.10/site-packages/turin_tcp
+[0.791s] copying /home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/build/lib/turin_tcp/__init__.py -> /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/lib/python3.10/site-packages/turin_tcp
+[0.791s] byte-compiling /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/lib/python3.10/site-packages/turin_tcp/__init__.py to __init__.cpython-310.pyc
+[0.792s] running install_data
+[0.792s] creating /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/share/ament_index
+[0.792s] creating /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/share/ament_index/resource_index
+[0.792s] creating /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/share/ament_index/resource_index/packages
+[0.792s] copying resource/turin_tcp -> /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/share/ament_index/resource_index/packages
+[0.792s] copying package.xml -> /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/share/turin_tcp
+[0.792s] running install_egg_info
+[0.794s] Copying build/turin_tcp/turin_tcp.egg-info to /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/lib/python3.10/site-packages/turin_tcp-0.0.0-py3.10.egg-info
+[0.794s] running install_scripts
+[0.810s] Installing tcp_client script to /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/lib/turin_tcp
+[0.810s] writing list of installed files to '/home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/install.log'
+[0.827s] Invoked command in '/home/rui/ros2_ws/src/turin_tcp' returned '0': PYTHONPATH=/home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/prefix_override:/home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/turin_tcp build --build-base /home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/build install --record /home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/install.log --single-version-externally-managed install_data

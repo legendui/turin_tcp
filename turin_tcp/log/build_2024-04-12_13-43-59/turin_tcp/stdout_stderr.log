@@ -1,0 +1,22 @@
+running egg_info
+writing build/turin_tcp/turin_tcp.egg-info/PKG-INFO
+writing dependency_links to build/turin_tcp/turin_tcp.egg-info/dependency_links.txt
+writing entry points to build/turin_tcp/turin_tcp.egg-info/entry_points.txt
+writing requirements to build/turin_tcp/turin_tcp.egg-info/requires.txt
+writing top-level names to build/turin_tcp/turin_tcp.egg-info/top_level.txt
+reading manifest file 'build/turin_tcp/turin_tcp.egg-info/SOURCES.txt'
+writing manifest file 'build/turin_tcp/turin_tcp.egg-info/SOURCES.txt'
+running build
+running build_py
+copying turin_tcp/tcp_connection_node.py -> /home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/build/lib/turin_tcp
+running install
+running install_lib
+copying /home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/build/lib/turin_tcp/tcp_connection_node.py -> /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/lib/python3.10/site-packages/turin_tcp
+byte-compiling /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/lib/python3.10/site-packages/turin_tcp/tcp_connection_node.py to tcp_connection_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/lib/python3.10/site-packages/turin_tcp-0.0.1-py3.10.egg-info' (and everything under it)
+Copying build/turin_tcp/turin_tcp.egg-info to /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/lib/python3.10/site-packages/turin_tcp-0.0.1-py3.10.egg-info
+running install_scripts
+Installing tcp_client script to /home/rui/ros2_ws/src/turin_tcp/install/turin_tcp/lib/turin_tcp
+writing list of installed files to '/home/rui/ros2_ws/src/turin_tcp/build/turin_tcp/install.log'
