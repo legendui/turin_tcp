@@ -62,8 +62,9 @@
   ```bash
   ros2 run turin_tcp joint_state_listener
   //改变关节角监听和发布速度
-  ```
   ros2 run turin_tcp joint_state_listener --ros-args -p update_interval:=1 //单位是秒
+  ```
+ 
 ### 项目结构
 
 - `/src`：包含所有源代码文件。
