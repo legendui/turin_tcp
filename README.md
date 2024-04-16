@@ -33,7 +33,7 @@
    - 将项目仓库克隆到`src`文件夹中：
      ```bash
      cd ~/ros2_ws/src
-     git clone [项目仓库URL]
+     git clone https://github.com/legendui/turin_tcp.git
      ```
 4. **构建项目**：
    - 返回工作空间根目录，执行构建：
