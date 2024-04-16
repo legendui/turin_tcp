@@ -2,7 +2,7 @@
 
 ### ROS2中间件项目概述
 
-该项目是为了实现与通过TCP连接的远程服务器进行实时数据交互的功能而设计的。它包括三个主要部分：TCP连接节点（`TCPConnectionNode`），关节状态发布器（`JointStatePublisher`），和数据监听器（`JointStateListener`）。这些组件共同工作，以从TCP服务器获取关节状态数据，处理这些数据，并在ROS2系统中发布它们。
+该包通过TCP协议与图灵机器人进行实时通信。它包括三个主要部分：TCP连接节点（`TCPConnectionNode`），关节状态发布器（`JointStatePublisher`），和数据监听器（`JointStateListener`）。这些组件共同工作，可以从图灵机器人获取关节状态数据，处理这些数据，并在ROS2系统中发布它们。
 
 ### 主要功能
 
@@ -13,14 +13,14 @@
 ### 环境依赖
 
 项目运行基于以下环境：
-- ROS2 Foxy Fitzroy
+- ROS2 humble
 - Python 3.8 或更高版本
 - 操作系统推荐使用 Ubuntu 20.04
 
 ### 安装步骤
 
-1. **安装ROS2 Foxy**：
-   - 根据官方文档[安装ROS2 Foxy](https://docs.ros.org/en/foxy/Installation.html)。
+1. **安装ROS2 humble**：
+   - 根据官方文档[安装ROS2 Humble](https://docs.ros.org/en/humble/Installation.html)。
 2. **创建工作空间**：
    - 打开终端，执行以下命令：
      ```bash
@@ -63,18 +63,3 @@
 - `/src`：包含所有源代码文件。
 - `/launch`：包含ROS2启动脚本。
 - `/config`：包含配置文件。
-
-### 贡献指南
-
-如果您希望贡献该项目，请遵循以下步骤：
-1. Fork仓库。
-2. 创建新的特性分支。
-3. 提交更改。
-4. 推送分支到GitHub。
-5. 提交拉取请求。
-
-### 许可证
-
-本项目根据MIT许可证发行。详情请查阅`LICENSE`文件。
-
-确保在实际的README文件中替换所有占位符（如`[package_name]`、`[项目仓库URL]`等）以及添加所有实际的操作步骤和链接。此README旨在为用户提供一切启动和运行项目所需的信息。
