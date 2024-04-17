@@ -78,7 +78,7 @@
   //启动关节角发布器
   ros2 run turin_tcp joint_state_publisher 
   ```
-进入RVIZ2界面，对模型进行拖拽，点击plan&execute。这时图灵机器人会移动到反解出的关节角。
+进入RVIZ2界面，对模型进行拖拽，点击plan&execute。这时图灵机器人会移动到Moveit反解出的关节角。
 
 ### 贡献指南
 
