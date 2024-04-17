@@ -6,9 +6,9 @@
 
 ### 主要功能
 
-- **TCP连接节点**：负责建立和维护与服务器的TCP连接，并发送及接收数据。
-- **关节状态发布器**：监听，获取关节数据，并将接收到的数据转换为ROS2可以处理的格式。
-- **数据监听器**：定期向图林机器人发送获取当前关节角指令，监听来自图灵机器人的关节数据，处理XML格式的关节数据，并将其发布到ROS2话题`turin_joint_states`上。
+- **TCP连接节点**：负责建立和维护与服务器的TCP连接，并发送及接收数据，默认ip:172.16.20.32, 端口：8527。
+- **关节状态发布器**：获取相关ROS2 topic数据（需为关节角），并将接收到的数据转换为图灵机器人可以处理的运动指令格式发送到机器人。
+- **数据监听器**：定期向图灵机器人发送获取当前关节角指令，监听来自图灵机器人的关节数据，处理XML格式的关节数据，并将其发布到ROS2话题`turin_joint_states`上。
 
 ### 环境依赖
 
@@ -52,17 +52,17 @@
   ros2 run turin_tcp tcp_connection_node --ros-args -p server_ip:=192.168.1.5 -p server_port:=8527
 
   ```
-- 启动关节状态发布器：
+- 启动关节角发布器：
   ```bash
   ros2 run turin_tcp joint_state_publisher
-  //改变关机角想要监听topic
-  ros2 run turin_tcp joint_state_publisher --ros-args -p joint_state_topic:= joint_state -p update_interval:= 1 //单位是秒
+  //改变想要监听topic
+  ros2 run turin_tcp joint_state_publisher --ros-args -p joint_state_topic:= joint_state -p update_interval:= 1.0 //单位：秒 数据类型：double
   ```
 - 启动图灵关节角监听器：
   ```bash
   ros2 run turin_tcp joint_state_listener
   //改变关节角监听和发布速度
-  ros2 run turin_tcp joint_state_listener --ros-args -p update_interval:=1 //单位是秒
+  ros2 run turin_tcp joint_state_listener --ros-args -p update_interval:=1.0 //单位：秒 数据类型：double
   ```
 
 ### 贡献指南
