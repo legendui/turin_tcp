@@ -2,7 +2,7 @@
 
 ### ROS2中间件项目概述
 
-该包通过TCP协议与图灵机器人进行实时通信。它包括三个主要部分：TCP连接节点（`TCPConnectionNode`），关节状态发布器（`JointStatePublisher`），和数据监听器（`JointStateListener`）。这些组件共同工作，可以从图灵机器人获取关节状态数据，处理这些数据，并在ROS2系统中发布它们。
+该包通过TCP协议与图灵机器人进行实时通信。它包括三个主要部分：TCP连接节点（`TCPConnectionNode`），关节状态发布器（`JointStatePublisher`），和数据监听器（`JointStateListener`）。这些在ROS2内模块化的组件可以单独工作，也可以同过node之间的相互关联来协同作业。
 
 ### 主要功能
 
