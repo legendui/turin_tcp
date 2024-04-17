@@ -65,8 +65,20 @@
   ros2 run turin_tcp joint_state_listener --ros-args -p update_interval:=1.0 //单位：秒 数据类型：double
   ```
 
-### 例子
+### 示例
 
+利用ROS2 Moveit2进行模拟仿真，然后同步到图灵机器人
+
+- 模拟仿真：
+  ```bash
+  //连接机器人
+  ros2 run turin_tcp tcp_connection_node
+  //启动moveit demo包，相关请搜索ROS2 Moveit2
+  ros2 launch moveit2_tutorials demo.launch.py
+  //启动关节角发布器
+  ros2 run turin_tcp joint_state_publisher 
+  ```
+进入RVIZ2界面，对模型进行拖拽，点击plan&execute。这时图灵机器人会移动到反解出的关节角。
 
 ### 贡献指南
 
